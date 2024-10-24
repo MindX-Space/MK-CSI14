@@ -1,0 +1,4 @@
+Phase 2:
+3. Độ phức tạp của thuật toán là gì? Có mấy loại độ phức tạp?
+4. Có những loại thuật toán, cấu trúc dữ liệu nào?
+5. Các cấu trúc dữ liệu sẵn có trong Python?

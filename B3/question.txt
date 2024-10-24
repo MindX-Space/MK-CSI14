@@ -1,8 +1,3 @@
 Phase 1:
 1. Có mấy loại OOP? Code mẫu cho từng loại? Giải thích theo ý hiểu.
 2. Thuật toán là gì? Cấu trúc dữ liệu là gì? Chúng khác gì nhau?
-
-Phase 2:
-3. Độ phức tạp của thuật toán là gì? Có mấy loại độ phức tạp?
-4. Có những loại thuật toán, cấu trúc dữ liệu nào?
-5. Các cấu trúc dữ liệu sẵn có trong Python?
