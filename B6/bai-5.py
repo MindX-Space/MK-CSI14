@@ -1,0 +1,1 @@
+#OOP Topic: Tạo một lớp Rectangle có hai thuộc tính chiều dài và chiều rộng. Lớp này có các phương thức tính chu vi và diện tích của hình chữ nhật.

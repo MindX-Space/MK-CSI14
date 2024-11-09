@@ -1,0 +1,1 @@
+# Tạo lớp Animal có phương thức speak() trả về "Animal speaks". Tạo các lớp con như Dog và Cat kế thừa từ Animal, mỗi lớp con có phương thức speak() riêng biệt.
