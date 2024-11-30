@@ -22,3 +22,60 @@ Toán tử tiếp theo là -, có toán tử * trước nó với độ ưu tiê
 Toán tử tiếp theo là /, có toán tử - trước nó nhưng độ ưu tiên thấp hơn => bỏ qua.
 Đã duyệt hết biểu thức, thực hiện tính toán theo thứ tự từ phải sang trái: 6 - 20 / 5 = 6 - 4 = 2
 """
+
+# def cal_expression(express):
+#     y = express.split()
+
+#     numbers = []
+#     operation = []
+
+#     queue = {
+#         "*": 2,
+#         "/": 2,
+#         "+": 1,
+#         "-": 1,
+#     }
+
+#     def caculate():
+#         a = numbers.pop()
+#         b = numbers.pop()
+#         math = operation.pop()
+
+#         if math == "+":
+#             numbers.append(a + b)
+#         elif math == "-":
+#             numbers.append(a - b)
+#         elif math == "*":
+#             numbers.append(a * b)
+#         elif math == "/":
+#             numbers.append(a / b)
+
+#     for x in y:
+#         if x.isdigit():
+#             numbers.append(float(x))
+#         else:
+#             while operation and queue[operation[-1]] >= queue[x]:
+#                 caculate()
+#             operation.append(x)
+
+#     while operation:
+#         caculate()
+
+# if __name__ == "__main__":
+#     express = input("Nhập vào biểu thức cần tính toán: ")
+
+#     try:
+#         result = cal_expression(express)
+#         print(f"Kết quả: {result}")
+#     except Exception as e:
+#         print(f"Chương trình đang gặp lỗi {e}")
+
+def cal_expression(express):
+    try:
+        return eval(express)
+    except Exception as e:
+        return f"Chương trình đang gặp lỗi{e}"
+    
+expression = input("Nhập vào biểu thức cần tính toán: ")
+result = cal_expression(expression)
+print(f"Kết quả là: {result}")
